@@ -1,0 +1,21 @@
+:root{
+    --headerColor: rgb(255, 72, 0);
+    --generalThemeColor: rgb(136, 136, 252);
+    --shadowForText: 0px 0px 3px black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(var(--generalThemeColor), blue );
+    height: 100vh;
+}
+h1{
+    color: var(--headerColor);
+    text-shadow: var(--shadowForText);
+    text-align: center;
+}

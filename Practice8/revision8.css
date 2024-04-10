@@ -1,0 +1,17 @@
+
+body {
+    background-color: hotpink;
+}
+
+#object {
+    position: absolute;
+    background-color: deeppink;
+    text-align: center;
+    color: skyblue;
+    top: 20%;
+    left: 20%;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+}

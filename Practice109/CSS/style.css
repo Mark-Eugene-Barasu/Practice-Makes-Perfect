@@ -1,0 +1,6 @@
+h1:first-child::after{
+    content: " and the CSS is also functional";
+    color: white;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-shadow: 0 0 2px black;
+}

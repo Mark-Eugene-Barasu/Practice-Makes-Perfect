@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.a1{
+    background-color: transparent;
+    width: 80%;
+    height: 100vh;
+    float: left;
+}
+
+.a2{
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+.b1{
+    background-color: transparent;
+    width: 75%;
+    height: 100vh;
+    float: left;
+}
+
+.b2{
+    background-color: rgba(0, 128, 0, 0.5);
+    width: 25%;
+    height: 100vh;
+    float: left;
+}
+
+.c1{
+    background-color: transparent;
+    height: 100vh;
+    float: left;
+    width: 66.6666666%;
+}
+
+.c2{
+    background-color: rgba(255, 255, 0, 0.5);
+    height: 100vh;
+    float: left;
+    width: 33.333333%;
+}
+
+.d1{
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 100vh;
+    float: left;
+    width: 50%;
+}
+
+.d2{
+    background-color: rgba(255, 166, 0, 0.5);
+    height: 100vh;
+    float: left;
+    width: 50%;
+}
+
+/* you could later create and animation for make the whole screen 
+express responsiveness without changing the viewports sizes*/
+@keyframes slexy {
+    0%{
+
+    }
+
+    20%{
+
+    }
+
+    40%{
+
+    }
+
+    60%{
+
+    }
+
+    80%{
+
+    }
+
+    100%{
+
+    }
+}
+
+@media screen and (max-width:1093px){ 
+    .d1,
+    .d2{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .c1,
+    .c2{
+        width: 50%;
+        height: 100vh;
+    }
+
+    .b1{
+        width: 66.6666%;
+        height: 100vh;
+    }
+    .b2{
+        width: 33.3333%;
+        height: 100vh;
+    }
+    
+    .a1{
+        width: 75%;
+        height: 100vh;
+    }
+    
+    .a2{
+        width: 25%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:820px){
+    .c1,
+    .d1,
+    .d2{
+        width: 100%;
+        height: 33.33333vh;
+    }
+
+    .c1{
+        height: 66.66666vh;
+    }
+
+    .c2{
+        width: 100%;
+        height: 33.33333vh;
+    }
+
+    .b1, .b2{
+        width: 50%;
+        height: 100vh;
+    }
+
+    .a1{
+        width: 66.66666%;
+        height: 100vh;
+    }
+
+    .a2{
+        width: 33.33333%;
+        height: 100vh;
+    }
+
+}
+
+@media screen and (max-width:547px){
+    .b2,
+    .c2,
+    .d1,
+    .d2{
+        width: 100%;
+        height: 25vh;
+    }
+
+    .c1{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .b1{
+        height: 75vh;
+        width: 100%;
+    }
+
+    .a1{
+        width: 50%;
+        height: 100vh;
+    }
+
+    .a2{
+        width: 50%;
+        height: 100vh;
+    }   
+}
+
+@media screen and (max-width:274px){
+    .a1,
+    .a2,
+    .b1,
+    .b2,
+    .c1,
+    .c2,
+    .d1,
+    .d2{
+        width: 100%;
+        height: 20vh;
+    }
+}
+
+div, section{
+    border-radius: 30px;
+}
+
+.main_container{
+    background-image: linear-gradient(white,grey);
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: gray;
+  color: white;
+  text-align: center;
+}
+
+body > div {
+  margin: 30px auto;
+}
+
+body .square {
+  width: 100px;
+  height: 100px;
+  background: #f45b69;
+}
+
+body .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f45b69;
+}
+
+body .triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid gray;
+  border-right: 50px solid gray;
+  border-bottom: 100px solid transparent;
+  background: #f45b69;
+}
+
+body .parallelogram {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: skew(15deg);
+          transform: skew(15deg);
+  background: #f45b69;
+}
+
+body .diamond {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background: #f45b69;
+}
+/*# sourceMappingURL=main.css.map */

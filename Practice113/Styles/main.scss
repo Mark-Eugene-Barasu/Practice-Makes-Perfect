@@ -1,0 +1,19 @@
+@import "generalSettings";
+@import "variables";
+
+body{
+    background: $accent-color;
+    @include holder();
+
+    h3{
+        color: $text-fill-color;
+        text-align: center;
+    }
+
+    h2{
+        background-color: $primary-color;
+        height: 200px;
+        border-radius: 0px 0px 40px 40px;
+        
+    }
+}

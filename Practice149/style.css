@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* color: white; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: powderblue;
+    text-shadow: 0 0 1px black;
+}
+
+p {
+    color: tomato;
+    padding: 20px 0px;
+}
+
+#para2 {
+    color: green;
+}
+
+section {
+    color: black;
+}
+
+form {
+    text-align: left;
+}

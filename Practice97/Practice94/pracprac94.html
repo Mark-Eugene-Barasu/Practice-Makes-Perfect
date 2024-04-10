@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML recapture.</title>
+    <link rel="stylesheet" href="practice94.css">
+</head>
+<body>
+    
+    <h2>Today I'll be revising HTML.</h2>
+
+    <form action="#" method="post">
+        <section id="prefix">
+            <h3>Prefix:</h3>
+            <ul>
+                <il><label><input type="radio" name="prefix" id="prefix1"/> Mr.</label></il><br>
+                <il><label><input type="radio" name="prefix" id="prefix2"/> Mrs.</label></il><br>
+                <il><label><input type="radio" name="prefix" id="prefix3"/>Miss.</label></il>
+            </ul>
+        </section>
+        <section id="userNames">
+            <label>
+                <h3>Last Name:</h3>
+                <input type="text" name="lastName" id="lastName">
+            </label>
+            <label>
+                <h3>Middle Name:</h3>
+                <input type="text" name="middleName" id="middleName">
+            </label>
+            <label>
+                <h3>First Name:</h3>
+                <input type="text" name="firstName" id="firstName">
+            </label>
+        </section>
+        <section id="userContacts">
+            <label>
+                <h4>contact</h4>
+                <input type="tel" name="cellNumb" id="cellNumb1">
+            </label>
+            <label>
+                <h4>email</h4>
+                <input type="email" name="userEmail" id="userEmail1">
+            </label>
+            <label>
+                <h4>address</h4>
+                <input type="text" name="userAddress" id="userAddress1">
+            </labe>  
+            <label>
+                <h4>postal code</h4>
+                <input type="number" name="areaCode" id="areaCode1">
+            </label>
+        </section>
+        <section>
+            <label>
+                <h3>Country of Origin</h3>
+                <select name="" id="country">
+                    <option value="ghana">Ghana</option>
+                    <option value="south_africa">South Africa</option>
+                    <option value="uk">Britain</option>
+                    <option value="canada">Canada</option>
+                    <option selected value="usa">United States of America</option>
+                </select>
+            </label>
+        </section>
+        <section>
+            <label>
+                <h3>Kindly tell us more about you and why you chose our institution</h3>
+                <textarea name="aboutUser" id="aboutUser" cols="50" rows="10"></textarea>
+            </label>
+            </section>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="practice94.js"></script>
+</body>
+</html>

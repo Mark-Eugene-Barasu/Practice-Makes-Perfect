@@ -1,0 +1,16 @@
+#checks {
+    text-decoration: line-through;
+}
+
+#myElement {
+    display: block;
+    background-color: #dddddd;
+    padding: 50px;
+    font-size: 30px;
+}
+
+
+#newbee {
+    background-color: red;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice69.css">
+    <title>Working with HTML.</title>
+</head>
+<body>
+    <p>Today we are reviewing HTML Forms, Okay?</p>
+    <p>Lets go!!!</p>
+    
+    <form action="/signup" method="POST">
+        <p>
+            <label>Title</label>
+            <label>
+                <input type="radio" checked="checked" name="title" value="mr.">Mr.
+            </label>
+            <label>
+                <input type="radio" name="title" value="mrs">
+            </label>Mrs.
+            <label>
+                <input type="radio" name="title" value="miss.">Miss.
+            </label>
+        </p>
+        <p>
+            <label>First name
+            <input type="text" placeholder="firstName">
+            </label>
+        </p>
+        <p>
+            <label>Last name
+            <input type="text" placeholder="lastName">
+            </label>
+        </p>
+        <p>
+            <label>Email
+            <input type="email" placeholder="email">
+            </label>
+        </p>
+        <p>
+            <label>Phone number
+            <input type="tel" placeholder="eg: (+27) 081 533 2769">
+            </label>
+        </p>
+        <p>
+            <label>Password
+            <input type="password" value="password">
+            </label>
+        </p>
+        <p>
+            <label>Confirm your password
+            <input type="password" value="password">
+            </label>
+        </p>
+        <p>
+            <label>Country</label>
+            <select>
+                <option value="canada">Canada</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="italy">Italy</option>
+                <option value="japan">Japan</option>
+                <option value="russia">Russia</option>
+                <option value="unitedKingdom">United Kingdom</option>
+                <option value="unitedStates">United States</option>
+            </select>
+        </p>
+        <p>
+            <label><input type="checkbox" checked="checked" value="terms">
+            I agree the <a href="/terms">terms and conditions</a></label>
+        </p>
+        <p>
+            <button> Sign Up</button>
+        </p>
+    </form>
+
+
+    <script src="practice69.js"></script>
+</body>
+</html>

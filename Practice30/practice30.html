@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Working On Map-Image.</title>
+    <link rel="stylesheet" type="text/css" href="practice30.css">
+</head>
+<body>
+    <h2><ins>I am doing Image Map today.</ins></h2>
+
+    <img id="theMan" src="img_avatar.png" alt="A photo picture" usemap="#theMan" onclick="showMe()";><br>
+    <map name="theMan">
+        <!---you could make the coords better-->
+        <area  shape="circle" coords="200, 350, 44" alt="APictureOfAMan" onclick="showMe()";>
+    </map>
+
+    
+
+    <!--This is the code for Image Maping the workplace.-->
+    <img src="workplace.jpg" alt="aNiceWorkPlace" usemap="#superMark">
+    <map name="superMark">
+        <area shape="rect" coords="33, 39, 275, 349" alt="This is a super image-map" onclick="indicate()";>
+    </map>
+
+    <script src="practice30.js"></script>
+</body>
+</html>

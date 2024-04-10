@@ -1,0 +1,8 @@
+#Adiv {
+    font-size: 399px;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(red, gold, yellow , chartreuse, green, lightblue, blue, indigo, blueviolet,violet);
+    border: 10px dotted red;
+    text-shadow: -5px 7px 8px gray;
+}

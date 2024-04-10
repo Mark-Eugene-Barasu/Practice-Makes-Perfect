@@ -1,0 +1,332 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 462px;
+    margin: 0%;
+}
+
+#theHeader {
+    background-color: rgb(77, 155, 228);
+    display: flex;
+    height: 52px;
+    margin: 0 0 3px 0;
+    
+}  
+    
+#myPhoto {
+    background-color: rgb(252, 173, 186);
+    margin: 4.5px 5px;
+    text-align: center;
+    width: 52px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#myLogo {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    margin: 4.5px 5px;
+    border: 2px black solid;
+    border-radius: 19%;
+    width: 266px;
+    height: 30px;
+}
+
+#controlButton {
+    position: absolute;
+    left: 353px;
+    top: 5px;
+    display: flex;
+    background-color: black;
+    margin: 0px 0px 10px 0px;
+    width: 100px;
+    height: 16px;
+    float: right;
+}
+
+#toTaxbar {
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 3px 1.5px 3px 3px;
+    width: 29px;
+    float: right;
+}
+
+#minButton {
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 3px 1.5px 3px 1.5px;
+    width: 29px;
+    float: right;
+}
+
+#closeButton {
+    background-color: red;
+    border: none;
+    margin: 3px 3px 3px 1.5px;
+    width: 30px;
+    float: right;
+}
+
+#middleSection {
+    background-color: rgb(129, 127, 127);
+    display: flex;
+    height: 352px;
+    
+}
+
+#navigation {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin: 13px 15px 30px 20px;
+    background-color: rgb(255, 174, 108);
+    border: 2px black solid;
+    height: 30px;
+    width: 252px;
+    text-align: center;
+}
+
+#home {
+    color: red;
+    margin: 0 5px 0 20px;
+}
+
+#contact {
+    color: yellow;
+    margin: 0 5px 0 0;
+}
+
+#location {
+    color: green;
+    margin: 0 5px 0 0;
+}
+
+#games {
+    color: blue;
+    margin: 0 5px 0 0;
+}
+
+#belowNav {
+    position: absolute;
+    background-color: rgb(99, 99, 98);
+    border: 2px black solid;
+    height: 255px;
+    width: 252px;
+    left: 20px;
+    border-radius: 10px;
+
+}
+
+#squares {
+    display: flex;
+}
+
+#squareOne {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    background-color: rgb(131, 220, 231);
+    left: 15px;
+    height: 88px;
+    width: 98px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#squareTwo {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 98px;
+    background-color: rgb(131, 220, 231);
+    left: 133px;
+    height: 88px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#rectangle {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(131, 220, 231);
+    border: 2px black solid;
+    border-radius: 10px;
+    top: 110px;
+    left: 15px;
+    height: 113px;
+    width: 218px;
+}
+
+#rightMiddleSection {
+    color: black;
+    margin: 13px 15px 30px -3px;
+    left: 300px;
+    background-color: rgb(99, 99, 98);
+    border: 2px black solid;
+    height: 322.5px;
+    width: 100%;
+}
+
+#bigCircle {
+    position: absolute;
+    width: 156px;
+    height: 159px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+#microCircles {
+    display: flex;
+}
+
+#one {
+    position: absolute;
+    top: 233px;
+    left: 289px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#two {
+    position: absolute;
+    top: 233px;
+    left: 304px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}    
+
+#three {
+    position: absolute;
+    top: 233px;
+    left: 319px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#four {
+    position: absolute;
+    top: 233px;
+    left: 335px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#five {
+    position: absolute;
+    top: 233px;
+    left: 351px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#six {
+    position: absolute;
+    top: 233px;
+    left: 366px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#seven {
+    position: absolute;
+    top: 233px;
+    left: 381px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#eight {
+    position: absolute;
+    top: 233px;
+    left: 397px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#nine {
+    position: absolute;
+    top: 233px;
+    left: 413px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#ten {
+    position: absolute;
+    top: 233px;
+    left: 429px;
+    height: 15px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#ABC-part {
+    margin: 186px 5px 0 5px;
+    position: relative;
+    border: 2px black solid;
+    height: 121px;
+    background-color: white;
+}
+
+#abcButton {
+    border: 2px black solid;
+    border-radius: 19%;
+    height: 19px;
+    margin: 5px 5px 0 5px;
+    background-color: rgb(247, 192, 73);
+}
+
+#footerPart {
+    background-color: rgb(112, 201, 253);
+    text-align: center;
+    height: 25.33px;
+    margin: 3.4px 0 0  0;
+}
+
+#Google {
+    margin: 0 5px 0 0;
+}
+
+#Wikipedia {
+    margin: 0 5px 0 5px;
+}
+
+#Twitter {
+    margin: 0 5px 0 5px;
+}
+
+#Facebook {
+    margin: 0 0 0 5px;
+}

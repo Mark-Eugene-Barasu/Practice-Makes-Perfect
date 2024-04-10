@@ -1,0 +1,6 @@
+body {
+    color: chartreuse;
+    background-image: linear-gradient( 135deg, orange, deeppink, orange);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

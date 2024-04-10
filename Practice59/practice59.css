@@ -1,0 +1,11 @@
+body {
+    background-color: red;
+    text-align: center;
+    background-image: linear-gradient(90deg, red,yellow,rgb(2, 255, 2), rgb(85, 85, 255), rgb(150, 6, 253) , violet, brown);
+}
+
+#demo {
+    padding-top: 10px;
+    font-weight: 100;
+    font-size: 40px;
+}

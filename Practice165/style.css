@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    min-height: 100vh;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 70px;
+    text-shadow: 0 0 2px black;
+}
+
+.one {
+    background-image: url("./images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.two {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5 ), rgba(0, 0, 0, 0.9)), url("./images/1.jpg") center/cover no-repeat fixed;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+/* master background properties in shorthand */
+.three {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(100, 100, 100, 0.9)), url("./images/1.jpg") center/cover no-repeat fixed;
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+    height: 100vh;
+    float: left;
+    background-color: red;
+    color: white;
+}
+
+main {
+    width: 75%;
+    height: 100vh;
+    float: left;
+    background-color: greenyellow;
+}
+
+@media only screen and (max-width:600px) {
+    .menu {
+        background-color: lightblue;
+    }
+
+    main {
+        background-color: gray;
+    }
+}

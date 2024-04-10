@@ -1,0 +1,40 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+#box {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    width: 60%;
+    height: 150px;
+    position: relative;
+    left: 20%;
+    background-image: linear-gradient(120deg,red, rgb(255, 123, 0), yellow, chartreuse, rgb(99, 218, 248), rgb(137, 4, 231), rgb(253, 0, 253), red);
+    border-radius: 50px;
+}
+
+.writing {
+    font-weight: 700;
+    text-shadow: 10px 10px 0px black;
+    position: relative;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    top: 13.5%;
+}
+
+.endng {
+    color: yellow;
+    font-family: sans-serif;
+    text-shadow: 0 0 5px blue;
+    text-align:center;
+
+}

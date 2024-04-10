@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabdev's Restaurant Demo.</title>
+    <link rel="stylesheet" href="practice73.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .social {
+            display: flex;
+        }
+
+        .social a{
+            display: block;
+            background: rgba(0, 0, 0, 1);
+            padding: 20px;
+            transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(0,0);
+            box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+            margin: 40px;
+            transition: all 0.5s ease-in-out 0s;
+        }
+        
+        .social a::after{
+            display: block;
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: -10px;
+            height: 20px;
+            width: 100%;
+            transform: rotate(0deg) skew(-45deg);
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .social a::before {
+            display: block;
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            left: -20px;
+            top: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            transform: rotate(0deg) skewY(-45deg);
+        }
+
+        .social a i{
+            color: rgba(255, 255, 255, 1);
+            font-size: 30pt;
+        }
+
+        .social a:hover{
+            transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(20px, -20px);
+            box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- So basically, I was trying out a rough sketch of the restaurant website. 
+    Anyone could update or improve it anytime.
+    checkout the CSS too.-->
+    <header>
+        <blockquote id="upQuote">
+            <img id="logo" src="640px-Chick-fil-A_Logo.svg.png" alt="Mabdev's logo"><br/>
+            Bringing Home Closer!!!
+        </blockquote>
+    </header>
+
+    <hr/>
+    <ul id="topList">
+        <li><a class="topList" href="map.html">Locations</a></li>
+        <li><a class="topList" href="order.html">Online Order</a></li>
+        <li><a class="topList" href="apply.html">Apply</a></li>
+        <li><a class="topList" href="gallary.html">Gallary</a></li>
+        <li><a class="topList" href="contact.html">Help</a></li>
+        <div id="search_bar">
+            <form style="float: right;border:none;background-color: transparent;" id="searchNav" action="" method="get">
+                <input type="text" placeholder="Search" name="search_Word" id="search_Word">
+                <input style="background-color:green;border:none;border-radius:0 15px 15px 0px;font-family: sans-serif;" type="submit" value="Search">
+            </form>
+        </div>
+    </ul>
+    <hr/>
+    <section style="display:block">
+        <h1 style="text-align: center;color: orange;">My name is Eugene Mark</h1>
+        <p style="text-align: center;color: orange;"><span style="text-shadow: 0 0 4px rgb(255, 255, 255);font-size: 20px;" id="heart">&hearts;</span>
+             This is a demonstration website of a restaurant.<span style="text-shadow: 0 0 4px rgb(255, 255, 255)" id="heart">&hearts;</span> <br>
+            <span style="background-color: green;color: red;font-weight: 900;">Please follow me on all my social media.</span><br><span id="downArrow">&darr;</span></p>
+    </section>
+
+    <section style="background-color:rgba(107, 107, 252, 0.253);justify-content: center;align-items: center;display: flex;height: 40vh;">
+        
+        <div class="social">
+            <a target="_blank" href="https://vm.tiktok.com/ZSJKPkMFe/"><i class="fab fa-tiktok"></i></a>
+            <a target="_blank" href="https://twitter.com/Brains_777?s=08"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/markeugene465/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://youtube.com/channel/UCJFmmEnHDe6WFw6gAhcnYFg"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://web.whatsapp.com/send?phone=+27815332769&text=Hello Mark Eugene, I want to congratulate you on successfully understanding the concept and how to link links to websites and anything."><i class="fab fa-whatsapp"></i></a>
+        </div>
+        
+    </section>
+
+    <hr/>
+    <marquee id="maker" behavior="" direction="rtl">This website was created my Mark Eugene on September 10th, 2021.</marquee>
+    <footer>
+        <p>
+            This is my footer, read marquee blow:
+        </p>
+        <marquee behavior="" direction="rtl">
+            This is the footer, you can improve this website Anytime
+        you like.
+        </marquee>
+        
+    </footer>
+
+
+    <script src="practice73.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabdev's Restaurant Demo.</title>
+    <link rel="stylesheet" href="practice73.css">
+</head>
+<body>
+    <!-- So basically, I was trying out a rough sketch of the restaurant website. 
+    Anyone could update or improve it anytime.
+    checkout the CSS too.-->
+    <header>
+        <blockquote id="upQuote">
+            <img id="logo" src="640px-Chick-fil-A_Logo.svg.png" alt="Mabdev's logo"><br/>
+            Bringing Home Closer!!!
+        </blockquote>
+    </header>
+
+    <hr/>
+    <ul id="topList">
+        <li><a class="topList" href="map.html">Locations</a></li>
+        <li style="transition: background-image 1s ease-out 0s;
+        background-image: linear-gradient(90deg,orange , rgba(0, 0, 0, 0.555), orange);
+    "><a class="topList" href="order.html">Online Order</a></li>
+        <li><a class="topList" href="apply.html">Apply</a></li>
+        <li><a class="topList" href="gallary.html">Gallary</a></li>
+        <li><a class="topList" href="contact.html">Help</a></li>
+        <div id="search_bar">
+            <form style="float: right;border:none;background-color: transparent;" id="searchNav" action="" method="get">
+                <input type="text" placeholder="Search" name="search_Word" id="search_Word">
+                <input style="background-color:green;border:none;border-radius:0 15px 15px 0px;font-family: sans-serif;" type="submit" value="Search">
+            </form>
+        </div>
+    </ul>
+    <hr/>
+
+    <section>
+        <nav id="leftSide">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li style="transition: background-image 1s ease-out 0s;
+                background-image: linear-gradient(90deg,orange , rgba(0, 0, 0, 0.555), orange);
+            "><a href="order.html">Order Online</a></li>
+                <li><a href="ourDishes.html">Types of Dishes</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="certiesAward.html">Certificates & Awards</a></li>
+                <li><a href="apply.html">Employment</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="socials.html">Socials</a></li>
+            </ul>
+        </nav>
+
+        <main>        
+            <article>
+                <p>To make your order you can order here online, or visit our nearest restaurant. 
+                <br><br>
+                You can also send your order through <a href="mailto:mark0630227248@gmail.com?Subject=Good%20Day%20Mabdev's%20Restaurant&body=Kindly%20take%20my%20order:">emailing us here</a>. <br/>
+                Also state in the email when and where (your address) you want your order delivered.</p>
+            </article>
+            <div id="orderForm">
+                <label>How many pizzas do you want?
+                <input type="number" id="numPizzas" />
+            </label>
+                <br />
+                <br />
+                <label>What kind of African?
+                <select id="typePizza">
+                    <option value="Cheese">Cheese</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                    <option value="Supreme">Supreme</option>
+                    <option value="Hungry-Man Pizza">Hungry-Man Pizza</option>
+                    <option value="King-Size Small">King-Size Small</option>
+                    <option value="King-Size Double Large">King-Size Double Large</option>
+                    <option value="Meat-Dope">Meat-Dope</option>
+                    <option value="Rich-Flavour (HOT)">Rich-Flavour (HOT)</option>
+                </select>
+            </label>
+                <br />
+                <br />
+                <label>Where do you live?
+                <select id="deliveryCity">
+                    <option value="Up-Town">Up-Town</option>
+                    <option value="New York">New York</option>
+                    <option value="Mthatha">Mthatha</option>
+                    <option value="Kakasunanka No1">Kakasunanka No1</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Beverly Hills">Beverly Hills</option>
+                </select>
+            </label>
+                <br />
+                <br />
+                <label>Is it your birthday?
+                <select id="birthday">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </label>
+                <br />
+                <br />
+                <button type="button" id="placeOrder">Place Order</button>
+            </div>
+            <div id="displayTotal"></div>
+            <script>
+            document.getElementById("placeOrder").addEventListener("click", placeOrder);
+        
+        function placeOrder() {
+            var numPizzas = document.getElementById("numPizzas").value;
+            var typePizza = document.getElementById("typePizza").value;
+            var deliveryCity = document.getElementById("deliveryCity").value;
+            var birthday = document.getElementById("birthday").value;
+        
+            var orderPrice = calculatePrice(numPizzas, typePizza);
+        
+            var deliveryPrice = calculateDelivery(orderPrice, deliveryCity, birthday);
+        
+            var theOutput = "<p>Thank you for your order.</p>";
+        
+            if (deliveryPrice === 0) {
+                theOutput += "<p>You get free delivery!</p>";
+            } else {
+                theOutput += "<p>Your delivery cost is: R" + deliveryPrice;
+            }
+        
+            theOutput += "<p>Your total is: R" + (orderPrice + deliveryPrice);
+        
+            document.getElementById("displayTotal").innerHTML = theOutput;
+        }
+        
+        function calculatePrice(numPizzas, typePizza) {
+            var orderPrice = Number(numPizzas) * 10;
+            var extraCharge = 0;
+        
+            if (typePizza === "supreme") {
+                extraCharge = Number(numPizzas) * 2;
+            }
+        
+            orderPrice += extraCharge;
+            return orderPrice;
+        }
+        
+        function calculateDelivery(orderPrice, deliveryCity, birthday) {
+            var deliveryPrice = 0;
+        
+            if (((deliveryCity === "Up-Town") && (orderPrice > 10)) || (birthday === "yes")) {
+                deliveryPrice = 0;
+            } else {
+                deliveryPrice = 5;
+            }
+            return deliveryPrice;
+        }
+            </script>
+
+
+        </main>
+            
+            <aside id="googleAdds">This adds for Google goes here. Anyone else is free to host 
+                their adds in my website for free.
+            </aside>
+
+        </section>
+
+    <hr/>
+    <marquee id="maker" behavior="" direction="rtl">This website was created my Mark Eugene on September 10th, 2021.</marquee>
+    <footer>
+        <p>
+            This is my footer, read marquee blow:
+        </p>
+        <marquee behavior="" direction="rtl">
+            This is the footer, you can improve this website Anytime
+        you like.
+        </marquee>
+        
+    </footer>
+
+
+    <script src="practice73.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: black;
+  position: absolute;
+  top: 20%;
+  left: 40px;
+  border: 3px solid red;
+  border-right-style: dashed;
+  border-bottom-style: dotted;
+  border-width: 3px 10px 10px 3px;
+  border-radius: 40px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body h3 {
+  color: #fff;
+  text-align: center;
+}
+
+body h2 {
+  background-color: #757575;
+  height: 200px;
+  border-radius: 0px 0px 40px 40px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(122, 121, 121);
+    color: white;
+    margin: 0%;
+}
+
+#navigation {
+    display: flex;
+    color: rgb(238, 255, 0);
+}
+
+ul {
+    display: flex ;
+    list-style: none;
+    text-align: center;
+    margin: 0%;
+}
+
+#home {
+    margin: 10px 15px 0 15px;
+    top: 20px;
+}
+
+#contact {
+    margin: 10px 15px 0 15px;
+}
+
+#logo {
+    margin: -2px 15px 0 15px;
+    top: 0%;
+}
+
+#history {
+    margin: 10px 15px 0 15px;
+}
+
+#location {
+    margin: 10px 15px 0 15px;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    margin: 0%;
+}
+
+#firstSegment {
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 10px 15px 2px 5px;
+}
+
+#secondSegment {
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 10px 15px 2px 5px;
+}
+
+#thirdSegment {
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 10px 15px 2px 5px;
+}
+
+#middlePart {
+    align-content: center;
+    margin: 0%;
+    padding: 10px 10% 5px 10%;
+    background-color: rgb(75, 74, 74);
+}
+
+#hm {
+    float: left;
+    margin: 3px;
+    padding: 0;
+    border-radius: 4px;
+    border: 1px solid yellow;
+}  
+    
+#footer {
+    background-color: black;
+    height: 120px;
+}

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+#con {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background-image: linear-gradient(180deg, white, skyblue, lightgreen, green, brown);
+    left: 5px;
+    top: 10px;
+    border: 1px solid black;
+    margin: 5px 0 0 5px;
+    box-shadow: 15px 18px 10px gray;
+    border-radius: 9px;
+    transition: all 1s linear 0s;
+}
+
+#con:hover {
+    border-radius: 50%;
+    border-left: 60px dashed yellow;
+    border-right: 60px dashed blue;
+    border-top: 100px dotted rgb(255, 0, 128);
+    border-bottom: 100px dotted rgb(0, 255, 76);
+    background-image: linear-gradient(rgb(37, 24, 37),black 10%,rgb(10, 43, 10));
+}
+
+#ball {
+    width: 50px;
+    height: 50px;
+    background-image: radial-gradient( pink,deeppink,red);
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    animation: bounceBall 1.5s ease-out 0s infinite normal both,
+               elasticEffect 1.5s ease-out 0s infinite normal both, 
+               travel 4.5s linear 0s infinite alternate both;
+}
+
+
+/* to make the ball bounce.*/
+@keyframes bounceBall {
+    0% { transform: translateY(0px); animation-timing-function: ease-out;}
+    
+    
+    50% {transform: translateY(-400px); animation-timing-function: ease-in;}
+    100% {transform: translate( 0px); height: 50px;}
+}
+
+/* to make the ball collide elastically aginst the ground*/
+@keyframes elasticEffect {
+    0% { height:42px; width:60px; }
+    25% { height:56px; width:45px; }
+    37.7% { height:50px; width:50px; }
+    50% { height:50px; }
+    80% { height:60px; }
+    90% { height:50px; width:50px; }
+    100% { height:50px; width:55px; }
+}
+
+/* make the ball move to and from*/
+@keyframes travel {
+    0% { left: 0%;}
+    33.33% { left: 26%;}
+    66.67% { left: 66%;}
+    100% { left: 86%;}
+}
+
+#youKnow {
+    color: red;
+    text-shadow: 7px 6px 2.5px gray;
+    text-align: center;
+    text-decoration: underline;
+    /*font: style variant weight size/line-height family*/
+    font: italic small-caps 900 38px/1.5 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Word {
+    font-weight: 900;
+    text-shadow: 6px 0 0 orange, -6px 0 0 blue;
+    margin-left: 5px;
+}

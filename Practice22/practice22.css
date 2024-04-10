@@ -1,0 +1,172 @@
+body {
+    background-color: white;
+    border: 0.5px solid gray;
+    height: 495.2px;
+    margin: 2px 10px;
+    padding: 0%;
+    width: 334px;
+}
+
+#haha {
+    background-color: rgb(231, 228, 228);
+    display: flex;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#pic1 {
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+}
+
+#insta {
+    margin: 4px;
+}
+
+#pic2 {
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin: 4px 0 0 140px;
+}
+
+#pic3 {
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin: 4px 0 0 8px;  
+}
+
+#pic4 {
+    border-radius: 50%;
+    height: 58px;
+    width: 58px;
+    margin: 5px 1px -9px 15px;
+    border: 1px solid gray;
+}
+
+#yourStory {
+    margin: 5px 15.5px;
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+}
+
+#ha {
+    display: flex;
+}
+
+#pic5 {
+  border-radius: 20px;
+  border: 0.5px solid rgb(99, 98, 98);
+  height: 30px;
+  width: 30px;
+  margin: 3.5px 2px 2px 13px;
+}
+
+#theName {
+    margin: 10px 10px;
+}
+
+#threeDots {
+    margin: 8px 0 0 150px;
+}
+
+#pic6 {
+    margin: 3px 0px 4px 0px;
+    width: 334px;
+    height: 214px;
+}
+
+#pic7 {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 6px;
+}
+
+#pic8 {
+    border: 1px solid rgb(255, 136, 0);
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 6px;
+}
+
+#pic9 {
+    border: 1px solid rgb(100, 242, 252);
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 6px;
+}
+
+#pic10 {
+    border: 1px solid rgb(143, 141, 141);
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 6px 0 6px 160px;
+}
+
+#part3 {
+    display: flex;
+}
+
+#theLeger {
+    display: flex;
+    background-color: rgb(231, 228, 228);
+}
+
+#me1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(100, 242, 252);
+    border-radius: 5px;
+    height: 37px;
+    width: 40px;
+    margin: 6px 12px 6px 9px;
+}
+
+#me2 {
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 37px;
+    width: 40px;
+    margin: 6px 13px;
+}
+
+#me3 {
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 37px;
+    width: 40px;
+    margin: 6px 13px;
+}
+
+#me4 {
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 37px;
+    width: 40px;
+    margin: 6px 13px;
+}
+
+#me5 {
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 37px;
+    width: 40px;
+    margin: 6px 13px;
+}

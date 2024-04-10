@@ -1,0 +1,42 @@
+#heart {
+    color: red;
+    text-shadow: 2px -1px 2px black;
+    font-size: 200%;
+    position: relative;
+    top: 7px;
+}
+
+#button1 {
+    border: 0.1px solid rgb(0, 255, 234);
+    background-image: linear-gradient(pink, chartreuse);
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 40%;
+    top: 50px;
+    box-shadow: 2px 4px 2px rgb(65, 65, 65);
+    animation: jumperIcon 2s ease-in 0s infinite normal none, shaker 2s ease-in-out 0s infinite normal none;
+
+}
+
+@keyframes jumperIcon {
+    0% {top: 50px;}
+    25% {top: 0px; box-shadow: 5px 6px 4px rgb(182, 182, 182);}
+    50% {top: 0px; box-shadow: 10px 8px 5px rgb(207, 207, 207);}
+    75% {top: 0px; box-shadow: 5px 6px 4px rgb(182, 182, 182s);}
+    100% {top: 50px}
+}
+
+@keyframes shaker {
+    0% {transform: rotateZ(0deg);}
+    25% {transform: rotateZ(0deg);}
+    33.3333333333% {transform: rotateZ(22.5deg);}
+    41.6666666666% {transform: rotateZ(-22.5deg);}
+    49.9999999999% {transform: rotateZ(22.5deg);}
+    58.3333333332% {transform: rotateZ(-22.5deg);}
+    66.6666666665% {transform: rotateZ(22.5deg);}
+    74.9999999998% {transform: rotateZ(0deg);}
+    75% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(0deg);}
+}

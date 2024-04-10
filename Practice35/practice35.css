@@ -1,0 +1,99 @@
+body {
+    margin-top: -32px;
+    background-image: url("IMG_20200122_055312.jpg");
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: blue;
+    text-align: center;
+    margin: -15px 0 0 0 ;
+}
+
+#leftSide {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-top: 5px;
+}
+section {
+    float: left;
+    margin-top: 5px;
+    width: 48%;
+    margin: 0px 1% 0 0;
+    border-radius: 2vw;
+    height: 300px;
+}
+article {
+    float: left;
+    margin-top: 5px;
+    width: 48%;
+    margin: 0px 1% 0 1%;
+    border-radius: 2vw;
+    height: 300px;
+}
+
+aside {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-top: 5px;
+    border-radius: 2vw;
+}
+ 
+@media (max-width:779.9999px) {
+    section {
+        width: 98%;
+        height: 145px;
+        margin: 0 1% 0 0;
+    }
+
+    article {
+        width: 98%;
+        margin: 10px 1% 0 0;
+        height: 145px;
+    }
+
+    body {
+        margin-top: -23px;
+    }
+}
+
+@media (max-width:430px) {
+    #leftSide {
+        width: 100%;
+        height: 300px;
+    }
+
+    section, article {
+        width: 100%;
+        margin: 5px 0 0 0;
+        height: 145px;
+
+    }
+
+    aside {
+        width: 100%;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 300px;
+    }
+
+    body {
+        margin-top: -14px;
+    }
+}
+
+header, footer {
+    color: white;
+}
+
+header p, footer p {
+    color: rgb(122, 224, 255);
+}

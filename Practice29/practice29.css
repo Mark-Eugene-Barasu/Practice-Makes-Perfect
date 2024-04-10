@@ -1,0 +1,31 @@
+#theLinks {
+    height: 60px;
+    background-color: rgb(109, 1, 100);
+    margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    margin: 3px 4px;
+}
+
+a:hover {
+    color: rgb(255, 0, 221);
+    background-color: chartreuse;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+a:visited {
+    color: yellow;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+    background-color: blue;
+}

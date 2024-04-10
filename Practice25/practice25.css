@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(131, 131, 131);
+    margin: 0px;
+    padding: 0px;
+}
+
+#theHead {
+    color: rgb(0, 0, 0);
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    height: 124px;
+    border-bottom: 1px solid black;
+}
+
+#bag1 {
+    position: absolute;
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+    height: 100px;
+    width: 25%;
+    border-radius: 0 0 90px 90px;
+    margin: 0 0 0 16.5%;
+    text-align: center;
+}
+
+#bag2 {
+    position: absolute;
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+    height: 100px;
+    width: 20%;
+    border-radius: 0 0 90px 0px;  
+    margin: 0 0 0 0%;
+    text-align: center;
+}
+
+#bag3 {
+    
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+    height: 100px;
+    width: 30%;
+    border-radius: 0 0 90px 90px;  
+    margin: 0 0 0 36%; 
+    text-align: center;
+}
+
+#bag4 {
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+    height: 100px;
+    width: 25%;
+    border-radius: 0 0 90px 90px;  
+    margin: 0 0 0 -5%;
+    text-align: center;
+}
+
+#bag5 {
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+    height: 100px;
+    width: 23%;
+    border-radius: 0 0 0 90px;
+    margin: 0 0 0 -30px;
+    text-align: center;
+}
+
+
+#image1 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    margin: 12px 0 0 19%;
+}
+
+#image2 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    margin: 12px 0 0 15px;
+}
+
+#image3 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    margin: 12px 0 0 20%; 
+}
+
+#image4 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    margin: 12px 0 0 20%;
+}
+
+#image5 {
+    border: 1px solid white;
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    margin: 12px 0 0 30px;
+}
+
+#secondSection {
+    display: flex;
+}
+
+#noteBook {
+    margin: 10px 20px 10px 3%;
+    border: 1px solid black;
+    height: 210px;
+    width: 40%;
+    text-align: center;
+    background-color: rgb(153, 152, 152);
+}
+
+#theHorizontalRule {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 1.5px;
+    background-color: black;
+}
+
+#eButton {
+    margin: 2px;
+}
+
+#ballBouncing {
+    position: absolute;
+    background-color: rgb(128, 255, 0);
+    border: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    top: 51%;
+    left: 45.5%;
+}
+
+#thirdSection {
+    display: flex;
+}
+
+.coins {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    height: 20px;
+    width: 20%;
+    border-radius: 50px;
+    margin: 10px 0 0 0;
+}
+
+#theProgress {
+    color: yellow;
+}
+
+#playGround3 {
+    display: flex;
+}
+
+.haa {
+    margin: 10px 20px 10px 3%;
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    text-align: center;
+    background-color: rgb(153, 152, 152);
+}
+
+#theEnd {
+    display: flex;
+}
+
+#partOne {
+    border: 1px solid black;
+    color: white;
+    height: 60px;
+    width: 20%;
+    background-color: green;
+}
+
+#partTwo {
+    border: 1px solid black;
+    color: orange;
+    background-color: lightblue;
+    width: 80%;
+}

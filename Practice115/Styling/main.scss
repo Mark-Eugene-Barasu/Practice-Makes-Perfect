@@ -1,0 +1,80 @@
+$equalSides: 100px;
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin someThings($background_Color) {
+    perspective: 500px;
+    width: $equalSides;
+    height: $equalSides;
+    background-color: $background_Color;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 5%;
+    justify-content: center;
+    &:hover{
+        animation: rotator 1s linear 0s infinite normal forwards, /*japers 1s linear 0 infinite forwards none*/;
+    }
+}
+
+@keyframes japers {
+    0% { transform: scaleX(0);}
+    50% { transform: scaleX(5);}
+    100% { transform: scaleX(0);}
+}
+
+@keyframes rotator {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% { transform: rotate(360deg);  }
+}
+
+body{
+    color: blue;
+    background-color: sandybrown;
+
+    .num1 {
+        @include someThings(chartreuse);
+    }
+
+    .num2 {
+        @include someThings(red);
+    }
+
+    .num3 {
+        @include someThings(orange);
+    }
+
+    .num4 {
+        @include someThings(blue);
+        z-index: -7;
+
+    }
+
+    .fire {
+        width: 30%;
+        height: 100px;
+        background-color: black;
+        position: relative;
+        margin: 0px auto;
+        animation: closeMaker 2 linear 0 infinite normal both /*,rotator 2 linear 0 infinite normal both*/;
+        perspective: 500px;
+        text-align: center;
+        padding-top: 37px;
+        border-radius: 12px;
+    }
+
+    @keyframes closerMaker {
+        0%{transform: scale(3);}
+        50%{transform: scale(0);}
+        100%{transform: scale(3);}
+    }
+}

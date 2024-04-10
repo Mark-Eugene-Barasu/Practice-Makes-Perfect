@@ -1,0 +1,74 @@
+@import "./menu";
+@import "./config";
+@import "./responsive";
+
+body {
+    background-color:rgba(107, 107, 252, 0.253);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: set-text-color($primary-color);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    line-height: 1;
+} 
+
+
+header{
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+}
+    
+.social {
+    display: block;
+}
+
+.social a{
+    display: block;
+    background: rgba(0, 0, 0, 1);
+    padding: 20px;
+    transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(0,0);
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+    margin: 40px;
+    transition: all 0.5s ease-in-out 0s;
+}
+    
+.social a::after{
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    transform: rotate(0deg) skew(-45deg);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.social a::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    left: -20px;
+    top: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+.social a i{
+    color: rgba(255, 255, 255, 1);
+    font-size: 30pt;
+}
+
+.social a:hover{
+    transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+.fa {
+padding-top: 13px;
+};

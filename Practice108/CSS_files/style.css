@@ -1,0 +1,41 @@
+/* CSS file */
+h1{
+    color: red;
+}
+
+/* to run these same code in SCSS you first have to instal
+the SCSS and SASS compiler exlensions */
+
+.main_container {
+    background-color: lightblue;
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+}
+
+/* descendant selectors ( Space ) */
+div p{
+    /* this selection targets the p element */
+    background-color: red;
+    width: 50%;
+    display: inline-block;
+    margin:  3px auto;
+}
+
+/* child selector ( > ) */
+div > p {
+    /* this selection targets the p element */
+    color: white;
+}
+
+/* sibling selector ( + ) */
+.one + .two {
+    /* this selection targets the .two element */
+    margin-left: 0px ;
+}
+
+/* general sibling selector ( ~ ) */
+div ~ p {
+    /* this selector gargets all the general p siblings after div */
+    background-color: deeppink;
+}

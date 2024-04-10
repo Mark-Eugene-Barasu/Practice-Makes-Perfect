@@ -1,0 +1,20 @@
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    border: 1px solid green;
+}
+
+th {
+    border: 1px solid red;
+    padding: 5px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid blue;
+    padding: 5px;
+}

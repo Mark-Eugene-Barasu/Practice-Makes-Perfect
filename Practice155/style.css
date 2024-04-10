@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+}
+
+p {
+    text-align: center;
+    color:white;
+}
+
+#newElement {
+    text-align: center;
+}

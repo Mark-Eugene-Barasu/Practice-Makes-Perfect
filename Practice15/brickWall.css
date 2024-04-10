@@ -1,0 +1,586 @@
+body {
+    background-color: rgb(136, 104, 72);
+    margin: 0%;
+}
+
+#column {
+    background-color: rgb(194, 121, 56);
+    margin: 1px 1px 1px 1px;
+    width: 5%;
+    height: 10px;
+}
+
+#halfBrick {
+    background-color: rgb(194, 121, 56);
+    margin: 1px 1px 1px 1px;
+    width: 2.5%;
+    height: 10px;
+}
+
+#row1 {
+    display: flex;
+}
+
+#row2 {
+    display: flex;
+}
+
+#row3 {
+    display: flex;
+}
+
+#row4 {
+    display: flex;
+}
+
+#row5 {
+    display: flex;
+}
+
+#row6 {
+    display: flex;
+}
+
+#row7 {
+    display: flex;
+}
+
+#row8 {
+    display: flex;
+}
+
+#row9 {
+    display: flex;
+}
+
+#row10 {
+    display: flex;
+}
+
+#row11 {
+    display: flex;
+}
+
+#row12 {
+    display: flex;
+}
+
+#row13 {
+    display: flex;
+}
+
+#row14 {
+    display: flex;
+}
+
+#row15 {
+    display: flex;
+}
+
+#row16 {
+    display: flex;
+}
+
+#row17 {
+    display: flex;
+}
+
+#row18 {
+    display: flex;
+}
+
+#row19 {
+    display: flex;
+}
+
+#row20 {
+    display: flex;
+}
+
+#row21 {
+    display: flex;
+}
+
+#row22 {
+    display: flex;
+}
+
+#row23 {
+    display: flex;
+}
+
+#row24 {
+    display: flex;
+}
+
+#row25 {
+    display: flex;
+}
+
+#row26 {
+    display: flex;
+}
+
+#row27 {
+    display: flex;
+}
+
+#row28 {
+    display: flex;
+}
+
+#row29 {
+    display: flex;
+}
+
+#row30 {
+    display: flex;
+}
+
+#row31 {
+    display: flex;
+}
+
+#row32 {
+    display: flex;
+}
+
+#row33 {
+    display: flex;
+}
+
+#row34 {
+    display: flex;
+}
+
+#row35 {
+    display: flex;
+}
+
+#row36 {
+    display: flex;
+}
+
+#row37 {
+    display: flex;
+}
+
+#row38 {
+    display: flex;
+}
+
+#row39 {
+    display: flex;
+}
+
+#row40 {
+    display: flex;
+}
+
+#row41 {
+    display: flex;
+}
+
+#row41 {
+    display: flex;
+}
+
+#row42 {
+    display: flex;
+}
+
+#row43 {
+    display: flex;
+}
+
+#row44 {
+    display: flex;
+}
+
+#row45 {
+    display: flex;
+}
+
+#row46 {
+    display: flex;
+}
+
+#row47 {
+    display: flex;
+}
+
+#row48 {
+    display: flex;
+}
+
+#row49 {
+    display: flex;
+}
+
+#row50 {
+    display: flex;
+}
+
+#design {
+    position: absolute;
+    left: 20%;
+    top: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+#myName {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0%;
+
+}
+
+p {
+    font-size: 2em;
+}
+
+.eye {
+    background-color:rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 50%;
+    width: 20%;
+    height: 6%;  
+}
+
+#rightPupil {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+}
+
+#leftPupil {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+}
+
+.eyeBrow {
+    background-color: black;
+    top: 16%;
+    height: 3px;
+}
+
+#leftEyeBrow{
+    position: absolute;
+    width: 20%;
+    left: 60%;
+    top: 13%;
+}
+
+#rightEyeBrow{
+    position: absolute;
+    width: 20%;
+    left: 21%;
+    top: 13%;
+}
+
+.ear {
+    position: absolute;
+    border-radius: 45%;
+    background-color: saddlebrown;
+    border: 2px solid rgb(7, 7, 7);
+    width: 1.5%;
+    height:7%;
+    top: 20%;
+}
+
+.arm {
+    background-color:saddlebrown;
+    position:absolute;
+    top:34.5%;
+    width:3%;
+    height: 30%;     
+}
+
+.rightFingers { 
+    background-color:saddlebrown;
+    position:absolute;
+    width:0.5%;
+    height: 5%;
+}
+
+.leftFingers {
+     background-color:saddlebrown;
+    position:absolute;
+    width:0.5%;
+    height: 5%;
+
+}
+
+
+
+#head {
+    width: 10%;
+    height: 24%;
+    border-radius: 45%;
+    background-color: saddlebrown;
+    border: 1px solid rgb(7, 7, 7);
+    position: absolute;
+    left: 32%;
+    top: 6%;
+}
+
+#righteye {
+    position: absolute;
+    border-right: 3px;
+    left: 19%;
+    top: 20%;
+}
+
+#lefteye {
+    position: absolute;
+    border-left: 2px;
+    left: 59%;
+    top: 20%;
+}
+
+#nose {
+    position: absolute;
+    left: 42%;
+    top: 26%;
+    width: 10%;
+    height: 28%;
+    background-color: saddlebrown;
+    border-left: ridge;
+    border-radius:70% 70% 40% 40%;
+    border-bottom: 0.5px solid;
+}
+
+#nosetrils {
+   background-color:saddlebrown;
+   position: absolute;
+   border-radius: 50% 50% 20% 20%;
+   border-left: ridge;
+   border-right: 0.5px solid;
+   top: 69%;
+   left: -69%;
+   height: 20%;
+   width: 200%;
+}
+
+#lips { 
+    position: absolute;
+    width: 55.5%;
+    height: 20%;
+    left: 21%;
+    top: 60%;
+    background-color: rgb(238, 136, 52);
+    border-radius:50%;
+
+}
+
+#mouth {
+    position: absolute;
+    border: 3px white dotted;
+    width: 48%;
+    height: 8%;
+    left: 22%;
+    top: 63.5%;
+    background-color: rgb(248, 7, 7);
+    border-radius:50%;
+}
+
+#leftear {position: absolute;
+    left: 41.5%;
+    top: 15%;
+}
+
+#rightear {
+    position: absolute;
+    left: 30.7%;
+    top: 15%;
+}
+
+#neck {
+    position: absolute;
+    left: 35%;
+    top: 29%;
+    width: 4%;
+    height: 6%;
+    background-color: saddlebrown;
+
+}
+
+#body {
+    position: absolute;
+    left: 29.5%;
+    top: 33%;
+    width: 15%;
+    height: 22.3%;
+    background-color: rgb(253, 2, 157);
+    border-radius:10% 10% 0% 0%;
+    text-align: center;
+    padding-top: 29px;
+    border-left: ridge;
+}
+
+.rightFingers {
+    border-radius: 60px;
+}
+
+.leftFingers {
+    border-radius: 0 0 50px 50px;
+}
+
+#rightarm {
+    position: absolute;
+    left: 26.3%;
+    border-radius: 30% 0% 0% 0%;
+    border-left: ridge;
+    width: 2.87%;
+}
+
+#rightFinger1 { 
+    position: absolute;
+    left: 23.5%;
+    top:57.7%;
+}
+
+#rightFinger2 { 
+    position: absolute;
+    left: 23.2%;
+    top:61.4%;
+}
+
+#rightFinger3 { 
+    position: absolute;
+    left: 24.3%;
+    top:60.87%;
+    height: 7%
+}
+
+#rightFinger4 { 
+    position: absolute;
+    left: 25.3%;
+    top:63.3%;
+}
+
+#rightFinger5 { 
+    position: absolute;
+    left: 26.3%;
+    top:61.8%;
+}
+
+#leftarm {
+    position: absolute;
+    left: 44.7%;
+    border-radius:0% 30% 0% 0%;
+    border-left: ridge;
+}
+
+#leftFinger1 {
+    position: absolute;
+    left: 50%;
+    top:57.7%;
+}
+
+#leftFinger2 {
+    position: absolute;
+    left:50.4%;
+    top:61.34%;
+}
+
+#leftFinger3 {
+    position: absolute;
+    left:49.2%;
+    top:60.87%;
+    height: 7%;
+}
+
+#leftFinger4 {
+    position: absolute;
+    left:48.4%;
+    top:63.3%;
+}
+
+#leftFinger5 {
+    position: absolute;
+    left:47.3%;
+    top:62.8%;
+}
+
+#waist {
+    position: absolute;
+    border-left: ridge;
+    left: 30%;
+    top: 59.9%;
+    width: 14%;
+    height: 10%;
+    background-color: blue;
+    text-align: center;
+}
+
+.pant {
+    background-color: blue;
+    border-left: ridge;
+    position: absolute;
+    top: 100%;
+    width: 33%;
+    height: 40%;
+}
+
+.leg { 
+    background-color:saddlebrown;
+    position:absolute;
+    border-left: ridge;
+    top: 140%;
+    width: 20%;
+    height: 200%;
+}
+
+.shoe {
+    background-color:rgb(1, 255, 14);
+    border: 1px solid rgb(255, 0, 0);
+    width: 10%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+#rightpant {
+    position: absolute;
+    left: -1.81%;
+
+}
+
+#leftpant {
+    position: absolute;
+    left:65%;
+}
+
+#rightleg {
+ position: absolute;
+    left: 70%;
+    
+}
+
+#leftleg {
+    position: absolute;
+       left: 7%;
+   
+}
+
+#rightshoe {
+    position: absolute;
+    left: 5%;
+    top: 310%;
+    border-bottom-right-radius: 5px ridge;
+}
+
+#leftshoe {
+    position: absolute;
+    left:78%;
+    top: 310%;
+    border-bottom-left-radius: 5px ridge;
+}

@@ -1,0 +1,61 @@
+body{
+	perspective: 500px;
+	background-color:lightblue;
+	/*font-size: 30px;*/
+	text-decoration: none;
+	height: auto;
+	background-image:linear-gradient( #fce374,#fcdf5b)
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 0px 0px 5px white;
+
+}
+
+p {
+	text-indent: 300px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+/* This is how we comment in CSS */
+
+a:link {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+	background-color:transparent;
+	text-decoration: underline;
+}
+
+div {
+	height: 40px;
+	width: 40px;	
+	background-color: blue;
+	animation: ex 2s linear 0s infinite normal both;
+}
+
+
+@keyframes ex{
+	0% {
+	    transform: translate3d(0px,0px,0px);
+	    background-color: rgba(0,255,10,1);
+	}
+	100% {
+	    transform: translate(0px,0px,200px);
+	    background-color: rgba(0,255,10,0);
+	}
+}

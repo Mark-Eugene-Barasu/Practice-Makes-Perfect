@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    padding: 0px;
+    width: 640px;
+    height: 80%;
+    background-color: rgb(255, 0, 221);
+}
+#titleBackground1 {
+    padding: 10px;
+    width: 640px;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 18px;
+    background-image: url("800px-Fire02.jpg");
+    background-size: 200px;
+}
+
+#warnings {
+    padding: 10px;
+    width: 640px;
+    height: 80%;
+    background-color: rgb(8, 199, 212);
+    border: 5px solid rgb(255, 251, 0);
+    text-align: center;
+}
+
+#spaceOne {
+    padding: 10px;
+    width: 640px;
+    height: 80%;
+    background-color: rgb(60, 255, 0);
+    border: 5px solid black;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#spaceTwo {
+    padding: 10px;
+    width: 640px;
+    height: 80%;
+    background-color: rgb(0, 238, 255);
+    border: 5px solid black;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#spaceThree {
+    padding: 10px;
+    width: 640px;
+    height: 80%;
+    background-color: rgb(255, 174, 0);
+    border: 5px solid black;
+    border-radius: 10%;
+    text-align: center;
+}

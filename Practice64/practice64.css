@@ -1,0 +1,55 @@
+html {
+    background-color: black;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 230px;
+    border-radius: 50px;
+}
+
+.c1 {
+    top: 18px;
+    left: 94px;
+}
+
+.c1, .c {
+    height: 400px;
+    width: 250px;
+    border: 6px solid skyblue;
+    position: relative;
+    border-radius: 50%;
+    transition: 2.5s linear;
+}
+
+.c {
+    bottom: 6px;
+    right: 6px;
+}
+
+.c:hover {
+    transform: rotate(15deg);
+}
+
+.c1:hover {
+    opacity: 1;
+    animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg)
+    }
+}

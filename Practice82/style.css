@@ -1,0 +1,12 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+ul li{
+    text-align: center;
+    width: 33.33333%;
+}
+

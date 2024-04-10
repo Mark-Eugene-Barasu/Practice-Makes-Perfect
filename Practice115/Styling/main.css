@@ -1,0 +1,202 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@-webkit-keyframes japers {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  50% {
+    -webkit-transform: scaleX(5);
+            transform: scaleX(5);
+  }
+  100% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+@keyframes japers {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  50% {
+    -webkit-transform: scaleX(5);
+            transform: scaleX(5);
+  }
+  100% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+@-webkit-keyframes rotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+body {
+  color: blue;
+  background-color: sandybrown;
+}
+
+body .num1 {
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  border: 1px solid #363636;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .num1:hover {
+  -webkit-animation: rotator 1s linear 0s infinite normal forwards;
+          animation: rotator 1s linear 0s infinite normal forwards;
+}
+
+body .num2 {
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid #363636;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .num2:hover {
+  -webkit-animation: rotator 1s linear 0s infinite normal forwards;
+          animation: rotator 1s linear 0s infinite normal forwards;
+}
+
+body .num3 {
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 1px solid #363636;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .num3:hover {
+  -webkit-animation: rotator 1s linear 0s infinite normal forwards;
+          animation: rotator 1s linear 0s infinite normal forwards;
+}
+
+body .num4 {
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid #363636;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -7;
+}
+
+body .num4:hover {
+  -webkit-animation: rotator 1s linear 0s infinite normal forwards;
+          animation: rotator 1s linear 0s infinite normal forwards;
+}
+
+body .fire {
+  width: 30%;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  margin: 0px auto;
+  -webkit-animation: closeMaker 2 linear 0 infinite normal both;
+          animation: closeMaker 2 linear 0 infinite normal both;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  text-align: center;
+  padding-top: 37px;
+  border-radius: 12px;
+}
+
+@-webkit-keyframes closerMaker {
+  0% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+  }
+  50% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+  }
+}
+
+@keyframes closerMaker {
+  0% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+  }
+  50% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(3);
+            transform: scale(3);
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+body,
+section,
+div,
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    border: 1px solid gray;
+}
+
+main {
+    background-color: lightgray;
+}
+
+.innerBody {
+    background-color: white;
+}

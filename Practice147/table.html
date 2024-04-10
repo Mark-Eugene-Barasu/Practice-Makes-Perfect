@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This is the table page</h1>
+    <a href="/index.html">Go Back Home</a>
+
+    <table>
+        <legend>this is a table</legend>
+        <thead>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th colspan="2">3</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th>a</th>
+                <td>a1</td>
+                <td>a2</td>
+                <td>a3</td>
+            </tr>
+            <tr>
+                <th>b</th>
+                <td>b1</td>
+            <td>b2</td>
+            <td>b3</td>
+            </tr>
+            <tr>
+                <th>c</th>
+                <td>c1</td>
+                <td>c2</td>
+                <td>c3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>d</th>
+                <td>d1</td>
+                <td>d2</td>
+                <td>d3</td>
+            </tr>
+        </tfoot>
+    </table>
+<br>
+    <table>
+        <tr>
+            <th colspan="2">Micheal Jackson Singles</th>
+        </tr>
+        <tr>
+            <th rowspan="3">1979</th>
+            <td>Don't Stop 'Til You Get Enough</td>
+        </tr>
+        <tr>
+            <td>Rock With You</td>
+        </tr>
+        <tr>
+            <td>Off the Wall</td>
+        </tr>
+    </table>
+<br>
+    <form action="phpFile.php" method="post">
+        <input type="email" name="email" id=""><br>
+        <input type="password" name="password" id=""><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><input type="checkbox" name="" id=""><br>
+        <input type="checkbox" name="" id=""><br>
+        <input type="checkbox" name="" id=""><br>
+
+        <select name="selection" multiple id="">
+            <option value="oney">1</option>
+            <option value="twoy">2</option>
+            <option value="threey">3</option>
+            <option value="foury">4</option>
+            <option value="fivey">5</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

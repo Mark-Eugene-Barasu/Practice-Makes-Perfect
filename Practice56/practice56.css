@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+h1  {
+    text-decoration: underline;
+}
+
+table,tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#cssTxt, #jsTxt {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 0px 0px 5px black;
+}
+#container1, #container2 {
+    position: relative;
+    background-color: gold;
+    height: 200px; 
+    width: 200px;
+    border: 1px solid black;
+}
+
+#marko{
+    position: absolute;
+    background-color :red;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    animation: roamerBox 3.5s linear 0s infinite normal both;
+}
+
+#javajava{
+    position: absolute;
+    background-color :red;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+}
+
+@keyframes roamerBox {
+    0% {transform: translate(0px, 0px)}
+    25% {transform: translate(150px, 0px)}
+    50% {transform: translate(150px, 150px)}
+    75% {transform: translate(0px, 150px)}
+    100% {transform: translate(0px, 0px)}
+}

@@ -1,0 +1,11 @@
+h1{
+    &::before{
+        content: "CSS is functional";
+        color: deeppink;
+    }
+
+    &::after{
+        content: " as well.";
+        color: chartreuse;
+    }
+}

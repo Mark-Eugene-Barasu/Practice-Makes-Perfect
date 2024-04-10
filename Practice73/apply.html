@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabdev's Restaurant Demo.</title>
+    <link rel="stylesheet" href="practice73.css">
+</head>
+<body>
+    <!-- So basically, I was trying out a rough sketch of the restaurant website. 
+    Anyone could update or improve it anytime.
+    checkout the CSS too.-->
+    <header>
+        <blockquote id="upQuote">
+            <img id="logo" src="640px-Chick-fil-A_Logo.svg.png" alt="Mabdev's logo"><br/>
+            Bringing Home Closer!!!
+        </blockquote>
+    </header>
+
+    <hr/>
+    <ul id="topList">
+        <li><a class="topList" href="map.html">Locations</a></li>
+        <li><a class="topList" href="order.html">Online Order</a></li>
+        <li style="transition: background-image 1s ease-out 0s;
+        background-image: linear-gradient(90deg,orange , rgba(0, 0, 0, 0.555), orange);
+    "><a class="topList" href="apply.html">Apply</a></li>
+        <li><a class="topList" href="gallary.html">Gallary</a></li>
+        <li><a class="topList" href="contact.html">Help</a></li>
+        <div id="search_bar">
+            <form style="float: right;border:none;background-color: transparent;" id="searchNav" action="" method="get">
+                <input type="text" placeholder="Search" name="search_Word" id="search_Word">
+                <input style="background-color:green;border:none;border-radius:0 15px 15px 0px;font-family: sans-serif;" type="submit" value="Search">
+            </form>
+        </div>
+    </ul>
+    <hr/>
+
+    <section>
+        <nav id="leftSide">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="ourDishes.html">Types of Dishes</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="certiesAward.html">Certificates & Awards</a></li>
+                <li style="transition: background-image 1s ease-out 0s;
+                background-image: linear-gradient(90deg,orange , rgba(0, 0, 0, 0.555), orange);
+            "><a href="apply.html">Employment</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="socials.html">Socials</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Apply Now</h2>
+            <form action="/apply" method="POST">
+            <p>
+                <label>Title: </label><br>
+                <label>
+                   <input type="radio" name="title" value="mr">Mr.
+                </label> <br>
+                <label>
+                   <input type="radio" checked name="title" value="mrs">Mrs.
+                </label> <br>
+                <label>
+                    <input type="radio" name="title" value="miss">Miss.
+                </label>
+            </p>
+
+            <p>
+                <label>
+                   <input class="fil" type="text" id="firstName" placeholder="First name">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                   <input class="fil" type="text" id="lastName" placeholder="Last name">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                   <input class="fil" type="email" name="" id="email" placeholder="Email address">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input class="fil" type="tel" name="" id="number" placeholder="Phone number">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input class="fil" type="number" name="" id="promoCode" placeholder="Promo Code (optional)">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <textarea class="fil" placeholder="Describe the post you are offering for and why you are the perfect candidate." name="littleMessage" id="textArea" cols="30" rows="10"></textarea>
+                </label>
+            </p>
+
+            <p>
+                <label>Your location: <br/>
+                    <select name="places" class="location">
+                        <option value="canada">Canada</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="italy">Italy</option>
+                        <option value="japan">Japan</option>
+                        <option value="russia">Russia</option>
+                        <option value="unitedKingdom">United Kingdom</option>
+                        <option value="unitedState">U.S.A.</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                If your location is not listed in the above options please type your country or location below.
+                <input type="text" name="places" class="location, fil">
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" value="terms" id="">
+                    I agree to the <a id="tsCsLink" href="tsAndCs.html">terms and conditions</a><strong>.</strong>
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" value="Become a Chef">
+            </p>
+
+            <p>Already applied? <a class="tsCsLink" href="/statu.php">Check the status of your application here.</a></p>
+
+           </form>
+        </main>
+            
+            <aside id="googleAdds">This adds for Google goes here. Anyone else is free to host 
+                their adds in my website for free.
+            </aside>
+
+        </section>
+
+    <hr/>
+    <marquee id="maker" behavior="" direction="rtl">This website was created my Mark Eugene on September 10th, 2021.</marquee>
+    <footer>
+        <p>
+            This is my footer, read marquee blow:
+        </p>
+        <marquee behavior="" direction="rtl">
+            This is the footer, you can improve this website Anytime
+        you like.
+        </marquee>
+        
+    </footer>
+
+
+    <script src="practice73.js"></script>
+</body>
+</html>

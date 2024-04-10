@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+p {
+    color: white;
+    text-align: center;
+    text-decoration: underline ;
+}
+
+#section_1 {
+    background-color: chartreuse;
+    width: 50%;
+    animation: stretcher 2s linear 0s infinite normal none;
+}
+
+/* This is a simple transition */
+/* #section_1:hover {
+    transition: width 2s linear 0s;
+    width: 100%;
+} */
+
+#section_2 {
+   /* animation: stretcher 2s ease 0s infinite normal both; */
+    background-color: orange;
+}
+
+
+@keyframes stretcher {
+    0% {width: 50%}
+    50% {width: 100%}
+    100% {width: 50%}
+}

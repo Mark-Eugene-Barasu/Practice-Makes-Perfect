@@ -1,0 +1,9 @@
+h1::before{
+    content: "CSS is functional,";
+    color: red;
+}
+
+h1::after{
+    content: " as well.";
+    color: green;
+}

@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(white, deeppink);
+    height: 553px;
+    perspective: 800px;
+}
+
+main {
+    background-image: radial-gradient(rgb(78, 189, 78), rgb(170, 255, 0));
+    width: 100px;
+    height: 70px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border: 1px solid yellow;
+    padding-top:  20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    animation:  trans 4s linear 0s infinite normal both;
+    text-decoration: none;
+}
+
+@keyframes trans {
+    0%   { transform: translate3d(0, 0, -50px); }
+    25%  { transform: translate3d(240px, 0, 50px );}
+    50%  { transform: translate3d(240px, 140px, 200px); }
+    75%  { transform: translate3d(0, 140px, 50px);}
+    100% { transform: translate3d(0, 0, -50px); }
+}

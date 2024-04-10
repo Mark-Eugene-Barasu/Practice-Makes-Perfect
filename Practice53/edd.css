@@ -1,0 +1,29 @@
+.boxOne {
+    background-color: yellow;
+    width: 600px;
+    height: 400px;
+}
+
+.boxTwo {
+    background-color: pink;
+    width: 400px;
+    height: 250px;
+}
+
+.heighlight-text {
+    color: dimgrey;
+    font-size: 50px;
+}
+
+.boxThree {
+    background-color: gray;
+    width: 100px;
+    height: 300px;
+}
+
+.boxFour {
+    background-color: purple;
+    height: 120px;
+    width: 350px;
+
+}

@@ -1,0 +1,92 @@
+body {
+  background-color: rgba(107, 107, 252, 0.253);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social {
+  display: block;
+}
+
+.social a {
+  display: block;
+  background: black;
+  padding: 20px;
+  -webkit-transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(0, 0);
+          transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(0, 0);
+  -webkit-box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  margin: 40px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.social a::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  -webkit-transform: rotate(0deg) skew(-45deg);
+          transform: rotate(0deg) skew(-45deg);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.social a::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: -20px;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transform: rotate(0deg) skewY(-45deg);
+          transform: rotate(0deg) skewY(-45deg);
+}
+
+.social a i {
+  color: white;
+  font-size: 30pt;
+}
+
+.social a:hover {
+  -webkit-transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(20px, -20px);
+          transform: perspective(1000px) rotate(-25deg) skew(25deg) translate(20px, -20px);
+  -webkit-box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+#back {
+  line-height: 1em;
+  font-size: 30px;
+  left: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  background-color: #009688;
+  position: fixed;
+  left: 16px;
+  top: 5px;
+  border: 0.5px solid white;
+  -webkit-box-shadow: 4px 4px 5px white;
+          box-shadow: 4px 4px 5px white;
+}
+
+.fa {
+  padding-top: 13px;
+}
+/*# sourceMappingURL=social.css.map */

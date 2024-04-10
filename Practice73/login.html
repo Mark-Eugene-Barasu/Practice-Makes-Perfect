@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabdev's Restaurant Demo.</title>
+    <link rel="stylesheet" href="practice73.css">
+</head>
+<body>
+    <!-- So basically, I was trying out a rough sketch of the restaurant website. 
+    Anyone could update or improve it anytime.
+    checkout the CSS too.-->
+    <header>
+        <blockquote id="upQuote">
+            <img id="logo" src="640px-Chick-fil-A_Logo.svg.png" alt="Mabdev's logo"><br/>
+            Bringing Home Closer!!!
+        </blockquote>
+    </header>
+
+    <hr/>
+    <div style="margin-top: 60px">
+        
+        <form action="/apply" method="POST">
+            <img style="border-radius: 50%;margin-top: -50px;" src="images.png" height="88px" width="90px" alt="profile logo">
+            <h2 style="color:rgb(255, 0, 191)">Login Now</h2>
+        <p>
+            <label>Title: </label>
+            <label>
+                <input type="radio" name="title" value="mr">Mr
+            </label>
+            <label>
+                <input type="radio" name="title" value="mrs">Mrs
+            </label>
+            <label>
+                <input type="radio" name="title" value="miss">Miss
+            </label>
+        </p>
+
+        <p>
+            <label>Full name <br/>
+                <input class="fil" type="text" id="firstName">
+            </label>
+        </p>
+
+        <p>
+            <label> Email: <br/>
+                <input class="fil" type="email" name="" id="email">
+            </label>
+        </p>
+
+        <p>
+            <label> Phone number: <br/>
+                <input class="fil" type="tel" name="" id="number">
+            </label>
+        </p>
+
+        <p>
+            <label> Password: <br/>
+                <input class="fil" type="password" name="" id="password">
+            </label>
+        </p>
+
+        <p>
+            <label> Confirm password: <br/>
+                <input class="fil" type="password" name="" id="ConfirmPassword">
+            </label>
+        </p>
+
+
+        <p>
+            <label>
+                <input type="checkbox" value="terms" id="">
+                I agree to the <a id="tsCsLink" href="tsAndCs.html">terms and conditions</a><strong>.</strong>
+            </label>
+        </p>
+
+        <p>
+    
+    <input style="background-color:blue;color:white;width: 200px;height: 30px;border-radius: 50px;border: none;outline: none;" type="submit" value="Submit Login">
+        </p>
+        <hr style="width: 80%;margin-left: 10%;">
+        <h2 style="margin-top: -18px;text-shadow: 0 0 9px black;">OR</h2>
+        <input style="background-color:rgb(3, 166, 187);color:white;width: 200px;height: 30px;border-radius: 50px;border: none;outline: none;" type="submit" value="Login with twitter">
+
+        <p>Do you need any <a href="socials.html" id="tsCsLink">help</a><strong>!</strong></p>
+        </form>
+    </div>
+
+    <hr/>
+    <marquee id="maker" behavior="" direction="rtl">This website was created my Mark Eugene on September 10th, 2021.</marquee>
+    <footer>
+        <p>
+            This is my footer, read marquee blow:
+        </p>
+        <marquee behavior="" direction="rtl">
+            This is the footer, you can improve this website Anytime
+        you like.
+        </marquee>
+        
+    </footer>
+
+
+    <script src="practice73.js"></script>
+</body>
+</html>

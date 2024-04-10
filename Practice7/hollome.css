@@ -1,0 +1,124 @@
+body {
+    background-color: sandybrown;
+    margin: 0px;
+    height: 300px;
+    
+}
+
+#headBoard {
+    display: flex;
+    background: skyblue;
+    margin: 0;
+}
+
+#buttons {
+    float: right;
+} 
+
+#taskBar {
+    float: right;
+}
+
+#minimize {
+    float: right;
+}
+
+#closeButton {
+    float: right;
+}
+
+.controlPannel {
+    float: right;
+}
+
+
+#userProfile {
+    background-color: #ff69b4;
+    margin: 25px 10px 10px 10px;
+    top: 1%;
+    width: 15%;
+    height: 40px; 
+
+}
+
+#mainSection {
+    position: absolute;
+    top: 16%;
+    left: 66.8px;
+}
+
+.numbers {
+    background-color: rgb(1, 252, 14);
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid;
+    top: -10%;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    margin: 2px;
+}
+
+#currentPage {
+    background-color: gray;
+    color: white;
+    height: 50px;
+    top: none;
+    width: 120%;
+    text-align: center;
+}
+
+#middleImage {
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 115%;
+    top: 100px;
+    left: 30px;
+    width: 500%;
+}
+
+#recentChats {
+    position: absolute;
+    display: flex;
+    top: 29%;
+    left: 403%;
+    height: 50%;
+    width: 150%;
+    margin: 2px;
+    
+
+}
+
+#buttons {
+    margin: 5px 10px 10px 10px;
+    display: flex;
+    height: 30px;
+    top: 3px;
+    left: 1%;
+    position: left;
+}
+
+li {
+    background-color: rgb(255, 123, 0);
+    height: 38px;
+    top: 20%;
+    margin: 5% 2% 5% 2%;
+    text-align: center;
+}
+
+
+#center {
+    display: flex;
+    height: 421px;
+}
+
+#navSection {
+    background-color: blue;
+
+}
+
+#myFooter {
+    background-color: green;
+    height: 80px;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: #5f5e5f;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: rgb(255, 165, 0);
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+   background-color:#9BE344;  
+}
+
+#blue {
+    background-color: blue;
+}
+
+#indigo {
+    background-color:indigo;
+}
+
+#violet {
+    background-color: violet;
+}
+
+p {
+    background-color: white;
+}

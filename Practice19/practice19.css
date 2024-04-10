@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(109, 108, 108);
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+#theHeader {
+    background-color: rgb(71, 70, 70);
+}
+
+#navigation {
+    display: flex;
+    list-style: none;
+    margin: 0%;
+}
+
+#home {
+    background-color: gainsboro;
+    color: black;
+    margin: 0 5px;
+}
+
+#location {
+    background-color: gainsboro;
+    color: black;
+    margin: 0 5px;
+}
+
+#contacts {
+    background-color: gainsboro;
+    color: black;
+    margin: 0 5px;
+}
+
+#map {
+    background-color: gainsboro;
+    color: black;
+    margin: 0 5px;
+}
+
+#aboutUs {
+    background-color: gainsboro;
+    color: black;
+    margin: 0 5px;
+}
+
+#help {
+    background-color: gainsboro;
+    color: black;
+    margin: 0 5px;
+}
+
+#topImages {
+    display: flex;
+}
+#pic1 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 6px;
+}
+
+#pic2 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 6px;
+}
+
+#pic3 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 6px;
+}
+
+#pic4 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 6px;
+}
+
+#pic5 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 6px;
+}
+
+#middleSection {
+    display: flex;
+    margin: 0 7px;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#yellowgreen {
+    background-color: yellowgreen;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue { 
+    background-color: blue;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#blueviolet {
+    background-color: blueviolet;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#violet {
+    background-color: violet;
+}
+
+#playGround {
+    margin: 0.5px 10px;
+}
+#hr {
+    border: none;
+    background-color: rgb(161, 159, 159);
+    height: 1px;
+}
+
+#theButton {
+    border: none;
+    background-color: rgb(169, 255, 71);
+    margin: 0 0 0 78px;
+    border-radius: 15px;
+}

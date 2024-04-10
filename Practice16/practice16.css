@@ -1,0 +1,94 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#header {
+    background-color: green;
+    color: white;
+    display: flex;
+    font-size: 27px;
+    padding: 0px 0 0 0 
+}
+
+#numPara {
+    margin: 0 15px 0 15px;
+    font-size: 40px;
+}
+
+#FirstCodingProject {
+    margin: 10px 0 0 0;
+}
+
+#secondPart {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: -75px 0 0 0;
+}
+
+#bigLettering {
+    font-size: 90px;
+}
+
+#FOR {
+    text-align: center;
+    font-size: 30px;
+    margin: -70px 0 0 0;
+    color: yellow;
+}
+
+#boldKids {
+    font-size: 90px;
+    color: yellow;
+    margin: -22px 0 0 0;
+}
+
+#grayButton {
+    background-color: rgb(56, 55, 55);
+    color: gray;
+    position: absolute;
+    border: none;
+    top: 234px;
+    left: 420px;
+    border-radius: 15px;
+    height: 50px;
+    width: 90px;
+}
+
+#thirdPart {
+    display: flex;
+    background-color: rgb(255, 240, 20);
+
+}
+
+#logo {
+    height: 270px;
+}
+
+#leftSide {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+}
+
+#rightSide {
+    margin: 0 0 0 30px;
+}
+
+#smallFor {
+    font-size: 10px;
+    text-align: center;
+    margin:  -10px 0 0 110px;
+}
+
+#DUM {
+    text-align: center;
+    margin: 0 0 0 80px;
+    font-size: 35px;
+}
+
+#naming {
+    font-size: 10px;
+    margin: 0 0 0 200px;
+}
