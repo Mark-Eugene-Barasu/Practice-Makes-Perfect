@@ -10,3 +10,6 @@
 [submodule "Practice120"]
 	path = Practice120
 	url = https://github.com/Mark-Eugene-Barasu/Practice-Makes-Perfect/Practice120.git
+[submodule "Practice121"]
+	path = Practice121
+	url = https://github.com/Mark-Eugene-Barasu/Practice-Makes-Perfect/Practice121.git
